@@ -1,0 +1,76 @@
+# Created at 2023-02-21T15:07:12.127
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-02-21T15:07:13.105
+Unexpected IOException with stream: 2023-02-21 15:07:13.103  INFO 12724 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+
+# Created at 2023-02-21T15:07:13.232
+Unexpected IOException with stream: 2023-02-21 15:07:13.231  INFO 12724 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces.
+
+
+# Created at 2023-02-21T15:07:15.869
+Unexpected IOException with stream: javadb
+
+
+# Created at 2023-02-21T15:07:15.872
+Unexpected IOException with stream: Cyberark1
+
+# Created at 2023-02-21T15:07:15.875
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-21T15:07:17.665
+Unexpected IOException with stream: 2023-02-21 15:07:17.663  INFO 12724 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2023-02-21T15:07:18.179
+Unexpected IOException with stream: 2023-02-21 15:07:18.155  INFO 12724 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+
+
+# Created at 2023-02-21T15:07:20.339
+Unexpected IOException with stream: 2023-02-21 15:07:20.336  INFO 12724 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+
+
+# Created at 2023-02-21T15:07:21.693
+Unexpected IOException with stream: 2023-02-21 15:07:21.689  INFO 12724 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+# Created at 2023-02-21T15:07:27.955
+Unexpected IOException with stream: 2023-02-21 15:07:27.953  INFO 12724 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2023-02-21T15:07:27.990
+Unexpected IOException with stream: 2023-02-21 15:07:27.988  INFO 12724 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2023-02-21T15:07:29.832
+Unexpected IOException with stream: 2023-02-21 15:07:29.828  WARN 12724 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2023-02-21T15:07:31.408
+Unexpected IOException with stream: 2023-02-21 15:07:31.407  INFO 12724 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+
+
+# Created at 2023-02-21T15:07:33.528
+Unexpected IOException with stream: 2023-02-21 15:07:33.527  INFO 12724 --- [           main] com.nsid.demo.DemoApplicationTests       : Started DemoApplicationTests in 23.619 seconds (JVM running for 26.682)
+
+
+# Created at 2023-02-21T15:07:33.596
+Unexpected IOException: 5,1,com.nsid.demo.DemoApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-02-21T15:07:34.207
+Unexpected IOException: 6,1,com.nsid.demo.DemoApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-02-21T15:07:34.219
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.nsid.demo.DemoApplicationTests,null,null,null
+
+

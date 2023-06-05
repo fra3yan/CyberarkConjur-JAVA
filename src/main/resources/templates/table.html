@@ -1,0 +1,64 @@
+<html>
+<head>
+  <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+        rel="stylesheet">
+
+  <title>Password SDK DEMO</title>
+</head>
+<body>
+
+<div class="container">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Password SDK DEMO</a>
+
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+
+  <a href="/psdk" >See reply from cyber ark api </a> <br/>
+  <a href="/normal" >Testing DataSource connection to database </a> <br/>
+
+  <hr/>
+  <br/>
+  <p th:text="${msg}"></p>
+  <br/>
+  <hr/>
+  <br/>
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">District</th>
+      <th scope="col">Population</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="city : ${cities}">
+      <th th:text="${city.ID}"></th>
+      <th th:text="${city.Name}"></th>
+      <th th:text="${city.District}"></th>
+      <th th:text="${city.Population}"></th>
+    </tr>
+
+    </tbody>
+  </table>
+
+</div>
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>

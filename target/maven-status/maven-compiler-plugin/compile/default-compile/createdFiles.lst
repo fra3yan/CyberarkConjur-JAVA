@@ -1,0 +1,6 @@
+com\nsid\demo\JpaConfig.class
+com\nsid\demo\model\City.class
+com\nsid\demo\controllers\HomeController.class
+com\nsid\demo\DemoApplication.class
+com\nsid\demo\controllers\PSDKController.class
+com\nsid\demo\repository\CityRepository.class
